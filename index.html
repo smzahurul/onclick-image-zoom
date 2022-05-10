@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Picture</title>
+</head>
+
+<body>
+    <div>
+        <img id="main-img" src="img/images.jpg" width="500px" , height="400px" alt="">
+    </div>
+    <img onclick="imageChange2()" src="img/img-2.jpg" width="100px" , height="100px" alt="Picture">
+    <img onclick="imageChange3()" src="img/img-3.jpg" width="100px" , height="100px" alt="Picture">
+    <img onclick="imageChange4()" src="img/img-4.jpg" width="100px" , height="100px" alt="Picture">
+    <img onclick="imageChange5()" src="img/img-5.jpg" width="100px" , height="100px" alt="Picture">
+    <img onclick="imageChange6()" src="img/img-6.jpg" width="100px" , height="100px" alt="Picture">
+    <script>
+        var main_image = document.getElementById("main-img");
+
+        function imageChange2() {
+            main_image.src = "img/img-2.jpg";
+        }
+
+        function imageChange3() {
+            main_image.src = "img/img-3.jpg";
+        }
+
+        function imageChange4() {
+            main_image.src = "img/img-4.jpg";
+        }
+
+        function imageChange5() {
+            main_image.src = "img/img-5.jpg";
+        }
+
+        function imageChange6() {
+            main_image.src = "img/img-6.jpg";
+        }
+    </script>
+</body>
+
+</html>
